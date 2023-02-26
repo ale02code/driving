@@ -1,4 +1,4 @@
-# Driving es mi proyecto personal para explotar mis conocimientos sobre HTML y Css sera mi proyecto mas grande hasta el momento.
+# Driving es mi proyecto personal para explotar mis conocimientos sobre HTML y CSS sera mi proyecto mas grande hasta el momento.
 
 Con el quiero plasmar una idea que tuve en una clase de diseño web y una pasion mia que seria los automoviles.
 
