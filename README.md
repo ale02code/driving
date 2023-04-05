@@ -1,9 +1,2 @@
-# Driving es mi proyecto personal para explotar mis conocimientos sobre HTML y CSS sera mi proyecto mas grande hasta el momento.
-
-Con el quiero plasmar una idea que tuve en una clase de diseño web y una pasion mia que seria los automoviles.
-
-Sera una pagina llena de conocimiento que eh adquirido esta mas que una practica sera una meta personal.
-
-Lastimosamente aun no se JavaScript asi que sera una pagina estatica pero de muy buena calidad.
-
-Se me hace todo un reto por que debere afrontar y solucionar muchos problemas.
+# Driving es mi proyecto personal
+para explotar mis conocimientos sobre HTML, CSS y ahora con Git el cual es hacer una paginas de una idea de carros la cual creo que es muy buena ay mucho por trabajar pero hace poco aprendi sobre Git a profundidad y me encantara llevar este proyecto con un seguimiento de el para ponerlo en practica.
