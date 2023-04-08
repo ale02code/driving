@@ -1,0 +1,99 @@
+.container {
+  display: flex;
+  width: 80%;
+  height: 850px;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 auto;
+  gap: 3rem;
+}
+
+.content img {
+  width: 250px;
+  height: 250px;
+}
+
+.texts h4,
+.texts p:nth-last-child {
+  margin: 100px 0px;
+}
+
+.texts h4 {
+  font-weight: 700;
+  margin-top: 30px;
+}
+
+.title__logo p {
+  color: #333;
+}
+
+#descript {
+  margin-top: 20px;
+}
+
+.texts button {
+  outline: none;
+  border: none;
+  padding: 10px;
+  background-color: #333;
+  color: #fff;
+  border-radius: 20px;
+  width: 250px;
+  margin-top: 25px;
+  border: solid 1px #000;
+}
+
+.texts button:active {
+  background-color: #444;
+}
+
+.container__class {
+  margin-bottom: 20px;
+}
+
+.class__title {
+  text-align: center;
+  color: #f39c12;
+  text-decoration: underline;
+  text-transform: capitalize;
+}
+
+.target__content {
+  display: grid;
+  grid-template-columns: repeat(3, 300px );
+  grid-template-rows: 160px 160px;
+  gap: 1.8rem;
+}
+
+.target {
+  background-color: #ccc;
+  border-radius: 20px;
+  padding: 12px;
+  position: relative;
+  animation: zoom 2.5s ease;
+}
+
+.target:hover {
+  transition: scale 2s;
+  scale: 1.1;
+}
+
+.target h5 {
+  font-size: 1.8rem;
+  display: inline-block;
+  margin-bottom: 8px;
+}
+
+.target div {
+  top: 0;
+  right: 0;
+  position: absolute;
+  padding: 20px;
+}
+
+.public {
+  font-size: 12.5px;
+  padding: 4px;
+  border: solid 1px #000;
+  border-radius: 10px;
+}
