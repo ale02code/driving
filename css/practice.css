@@ -1,0 +1,107 @@
+* {
+  font-family: "Noto Sans", sans-serif;
+}
+
+:root {
+  --color-primario: #f39c12;
+  --color-secundario: #d35400;
+  --color-footer-primario: #272624;
+  --color-footer-secundario: #131212;
+}
+
+.models {
+  width: 100%;
+  height: 780px;
+  overflow: hidden;
+}
+
+.texts__models {
+  margin-top: 65px;
+  text-align: center;
+  text-transform: capitalize;
+  line-height: 1.3;
+}
+
+.texts__models h4 {
+  font-size: 2.5rem;
+}
+
+.texts__models p {
+  font-size: 1.6rem;
+  text-shadow: -1px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* galley */
+
+.models__container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  height: 650px;
+  overflow: hidden;
+  padding: 30px 50px;
+  gap: 1rem;
+}
+
+.model img:hover {
+  transition: scale 2s;
+  scale: 1.1;
+}
+
+.model {
+  margin: 0 auto;
+}
+
+.models__container p {
+  font-size: 1.6rem;
+  z-index: 6;
+}
+
+/* Rules and Requirements */
+
+.rules-requirements {
+  width: 100%;
+  padding: 0px 50px;
+}
+
+.rules__container h4 {
+  font-size: 2.3rem;
+  text-transform: capitalize;
+  color: var(--color-primario);
+  margin: 5px 0px;
+}
+
+.requirements__container {
+  margin-bottom: 25px;
+}
+
+.requirements__container h4{
+  font-size: 2.3rem;
+  text-transform: capitalize;
+  color: var(--color-primario);
+  margin: 5px 0px;
+}
+
+.ul-li__container {
+  font-size: 1.3rem;
+  padding-left: 12px;
+}
+
+/* note */
+
+.container__note {
+  width: 800px;
+  background-color: #ccc;
+  margin: 32px auto;
+  padding: 30px;
+  border-radius: 25px;
+}
+
+.title__note {
+  text-align: center;
+  font-size: 2.3rem;
+  margin-bottom: 2px;
+}
+
+.paragraph__note {
+  font-size: 1.2rem;
+}

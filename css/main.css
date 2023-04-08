@@ -1,0 +1,149 @@
+* {
+  font-family: "Noto Sans", sans-serif;
+}
+
+:root {
+  --color-footer-primario: #272624;
+  --color-footer-secundario: #131212;
+}
+
+/* nav-bar */
+
+.header {
+  height: 100px;
+  background-color: var(--color-footer-secundario);
+}
+
+.title {
+  text-decoration: none;
+  font-weight: 300;
+  font-size: 2.4rem;
+  color: #fff;
+}
+
+.list__container {
+  height: 95px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px 55px;
+  color: #fff;
+}
+
+.li__container {
+  width: 520px;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.li {
+  list-style-type: none;
+  font-size: 1.2rem;
+}
+
+.nav__item {
+  text-decoration: none;
+  font-weight: 450;  
+  color: #c2c2c2;
+}
+
+.nav__item:hover {
+  color: #e2e2e2;
+}
+
+/* Footer */
+
+.footer {
+  height: 430px;
+  background-color: var(--color-footer-primario);
+}
+
+.footer__container{
+  display: grid;
+  grid-template-columns: 2fr 1fr 1fr;
+  width: 95%;
+  margin: 0 auto;
+  color: #fff;
+  gap: 1rem;
+  margin-bottom: 1.5rem;
+}
+
+.title__footer {
+  font-size: 1.5rem;
+  margin-bottom: 1.2rem;
+  text-transform: capitalize;
+}
+
+.info,
+.networks,
+.contact {
+  margin-top: 100px;
+}
+
+.info p{
+  color: #ccc;
+  line-height: 1.70;
+}
+
+.networks {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.networks a {
+  text-decoration: none;
+  color: #ccc;
+}
+
+.networks p {
+  display: inline-block;
+  margin: 0 auto;
+}
+
+.networks img {
+  height: 42px;
+  width: 42px;
+  margin-right: 10px;
+  margin-top: 5px;
+}
+
+.contact h4 { 
+  margin-bottom: 1.7rem;
+}
+
+.contact img {
+  height: 42px;
+  width: 42px;
+  margin-bottom: 8px;
+  margin-top: 5px;
+}
+
+.contact p {
+  margin-bottom: 12px;
+}
+
+.contact__container {
+  display: flex;
+  flex-direction: column;
+}
+
+.copyright {
+  display: flex;
+  align-items: center;
+  background-color: var(--color-footer-secundario);
+  height: 40px;
+}
+
+.copyright p {
+  color: #fff;
+  font-size: 1.3rem;
+  padding-left: 2.6rem;
+  font-weight: 500;
+}
+
+.copyright p span {
+  border-right: 1px white solid;
+  padding-right: 5px;
+}
